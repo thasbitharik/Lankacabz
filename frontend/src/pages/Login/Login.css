@@ -1,0 +1,120 @@
+.login-form-section {
+    border: #fc973e 1px solid;
+    padding: 50px;
+}
+
+.login-form-area {
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+
+.login-input {
+    border: 1px solid #fc973e !important;
+    border-radius: 0px !important;
+    padding: 10px 20px !important;
+}
+
+.login-btn {
+    background: linear-gradient(#ffd066, #fc973e) !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    border: none !important;
+    font-size: 13px !important;
+    padding: 12px 30px !important;
+    border-radius: 0px !important;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* ///// */
+.radio-inputs {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-radius: 0;
+    background-color: #EEE;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.25rem;
+    width: 300px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #fc973e;
+}
+
+.radio-inputs .radio {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.radio-inputs .radio input {
+    display: none;
+}
+
+.radio-inputs .radio .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 0;
+    border: none;
+    padding: .5rem 0;
+    color: rgba(51, 65, 85, 1);
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+.radio-inputs .radio input:checked+.name {
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.radio-inputs .radio input:checked+.name.success {
+    background-color: #00bf4c !important;
+    color: #FFF;
+}
+
+.radio-inputs .radio input:checked+.name.danger {
+    background-color: #ca0000 !important;
+    color: #FFF;
+}
+
+
+/* ///// */
+.dont-acc-text {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dont-acc-text a {
+    font-weight: 600;
+    color: #fc973e !important;
+}
+
+.dont-acc-text a:hover {
+    text-decoration: underline !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

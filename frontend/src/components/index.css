@@ -1,0 +1,36 @@
+.footer-input {
+    position: absolute;
+    left: -5000px;
+}
+
+.header-login-btn {
+    background: linear-gradient(#ffd066, #fc973e) !important;
+    color: #000 !important;
+    font-weight: 700 !important;
+    padding: 10px 20px !important;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.nav-menu-ul {
+    display: flex;
+    align-items: center;
+}
+
+.profile-btn {
+    border-radius: 50% !important;
+    flex-shrink: 0 !important;
+    display: flex !important;
+    width: 40px !important;
+    height: 40px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #000000 !important;
+    border: #fc973e 1px solid;
+    padding: 0 !important;
+}
+
+.profile-btn i{
+    font-size: 23px !important;
+    color: #fc973e !important;
+}
